@@ -249,6 +249,8 @@ B) Preload -> Create -> Update
 C) Load -> Initialize -> Render
 
 D) Begin -> Play -> End
+
+RESPOSTA: B) Preload -> Create -> Update
 ______
 
 **6)** Qual é o objetivo principal do módulo Arcade Physics em Phaser.js?
