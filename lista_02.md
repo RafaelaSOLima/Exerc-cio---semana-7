@@ -49,6 +49,9 @@ C) O código avalia a expressão booleana, imprime o resultado `true` e verifica
 D) O código avalia a expressão booleana, imprime o resultado `false` e ordena a lista de números em ordem crescente.
 
 
+RESPOSTA: B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+
+
 ______
 
 **2)** Analise as funções calcularOrcamento() e calcularOrcamento2(). Num cenário em que a lista gastos fosse incializada como var gastos = [3600, 950, 620, 38] em ambas funções.
