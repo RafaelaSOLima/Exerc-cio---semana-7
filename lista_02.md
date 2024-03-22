@@ -313,10 +313,10 @@ Classe Circulo derivada de FormaGeometrica:
 
 
 Constanate Retangulo = novo Retangulo (cor , Base, Altura) #escrever a cor e os numeros
-imprimir: area do Retangulo + cor
+imprimir: "Area do Retangulo:" +  retangulo.CalcularArea()  + ", Cor:" + retangulo.cor
 
 Constanate Circulo = novo Circulo (cor , Raio) #escrever a cor e o numero
-imrpimir: area do Circulo + Cor
+imrpimir: "Area do Circulo" + circulo.CalcularArea()  + ", Cor:" + circulo.cor
 
 ```
 
