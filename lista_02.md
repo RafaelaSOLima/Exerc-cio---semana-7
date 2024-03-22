@@ -287,6 +287,20 @@ Classe FormaGeometrica:
     Método CalcularArea():
         # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
 
+Classe Retangulo derivada de FormaGeometrica:
+    Atributos:
+        - Base
+        - Altura
+
+
+
+Classe Circulo derivada de FormaGeometrica:
+    Atributos:
+        - Pi = 3,14
+        - Raio
+       
+
+
 ```
 
 ______
