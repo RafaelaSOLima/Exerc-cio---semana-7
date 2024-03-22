@@ -287,19 +287,36 @@ Classe FormaGeometrica:
     Método CalcularArea():
         # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
 
+
 Classe Retangulo derivada de FormaGeometrica:
     Atributos:
         - Base
         - Altura
 
+    Método Construtor(cor , Base, Altura)
+
+    Método CalcularArea() {
+        retornar Base * Altura
+    }
 
 
 Classe Circulo derivada de FormaGeometrica:
     Atributos:
         - Pi = 3,14
         - Raio
-       
 
+    Método Construtor(cor , Raio)
+
+    Método CalcularArea() {
+        retornar Pi * Raio^2
+    }
+
+
+Constanate Retangulo = novo Retangulo (cor , Base, Altura) #escrever a cor e os numeros
+imprimir: area do Retangulo + cor
+
+Constanate Circulo = novo Circulo (cor , Raio) #escrever a cor e o numero
+imrpimir: area do Circulo + Cor
 
 ```
 
