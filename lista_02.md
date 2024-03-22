@@ -265,6 +265,7 @@ C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
 
 D) Gerenciar a lógica do jogo e a sincronização de eventos em jogos multiplayer.
 
+RESPOSTA: B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
 ______
 
 # Questões dissertativas
