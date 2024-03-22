@@ -115,6 +115,8 @@ C) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -100.' e a d
 
 D) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -100.'
 
+RESPOSTA: D) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -100.'
+
 ______
 
 **3)** Considere o seguinte trecho de código em JavaScript:
