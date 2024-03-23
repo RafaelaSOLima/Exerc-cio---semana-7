@@ -274,9 +274,19 @@ ______
 ![Uma imagem](assets/image.png)
 
 ```
+Função verificarIdadeParaVotar: ()
+  idade = usuarioDigitaAIdade() #prompt é usado quando o usuario pode digitar o solicitado
 
+  Se: (idade < 16)
+    imprimir("Não pode votar!")
 
+  Senão se: (idade >= 16 <18)
+    imprimir("Voto facultativo!")
 
+  Senão: (idade > 18)
+    imprimir("Voto Obrigatório")
+
+#Se a idade for menor que 16 
 
 
 ```
