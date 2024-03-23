@@ -326,10 +326,22 @@ ______
 
 Considere a fórumla de atualização velocidade:
 ```
-Classe()
-    velocidade = velocidadeInicial + aceleracao*tempo
-
-
+Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo) {
+    tempo = 0
+    velocidade = velocidade_inicial 
+    
+    Enquanto ( verdade) { 
+        tempo = tempo + 1
+        velocidade = velocidade_inicial + aceleracao * tempo
+        
+        Se (velocidade > velocidade_maxima) então {
+            velocidade = velocidade_maxima}
+        
+        Se  (velocidade * tempo >= distancia)  então {
+            Retornar tempo }
+            
+        Se (tempo >= tempo_maximo) então{
+            Retornar "Tempo limite excedido"}
 
 ```
 
