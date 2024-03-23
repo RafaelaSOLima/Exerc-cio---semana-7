@@ -328,22 +328,26 @@ ______
 Considere a fórumla de atualização velocidade:
 ```
 Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo) {
-    tempo = 0
-    velocidade = velocidade_inicial
-    resultado = (velocidadeInicial + Aceleração)/velocidade
+    variavel tempo = 0
+    variavel velocidade = velocidadeInicial
+    variavel resultado
+    
     
     Enquanto ( verdade) { 
         tempo = tempo + 1
         velocidade = velocidadeIinicial + aceleracao * tempo
         
-        Se (velocidade > velocidade_maxima) então {
-            velocidade = velocidade_maxima}
+        Se (velocidade > velocidadeMaxima) então {
+            velocidade = velocidadeMaxima}
         
         Se  (velocidade * tempo >= distancia)  então {
-            imprimir ("O tempo de Corrida Foi:" + resultado + "seg") } 
+            resultado = tempo
+            imprimir ("O tempo de Corrida Foi:" + resultado + "seg")
+            retornar resultado} 
             
-        Se (tempo >= tempo_maximo) então{
-            Imprimir: ("Tempo limite excedido")} }}
+        Se (tempo >= tempoMaximo) então{
+            Imprimir: ("Tempo limite excedido")
+            Retronar: tempo limite execido} }}
 
 #Exemplo de Aplicação:
 
@@ -353,7 +357,9 @@ variavel aceleracao = # escrever a aceleração em m/s^2
 variavel velocidadeMaxima = # escrever a velocidade máxima em m/s
 variavel tempoMaximo = #escrever o tempo máximo em segundos
 
-variavel resultado = simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo)
+variavel teste = simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo)
+
+#Isso retornará ("O tempo de Corrida Foi:" + resultado + "seg") caso a corrida não ultrapasse o tempo permitido, caso isso acontença será retornado ("Tempo limite excedido"). LEmbrando que não importa a aceleração, a velocidade maxima não será ultrapassada.
 
 ```
 
