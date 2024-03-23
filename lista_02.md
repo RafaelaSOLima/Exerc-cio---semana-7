@@ -311,6 +311,7 @@ Classe Circulo derivada de FormaGeometrica:
         retornar Pi * Raio^2
     }
 
+# Exemplo de Aplicação:
 
 Constanate Retangulo = novo Retangulo (cor , Base, Altura) #escrever a cor e os numeros
 imprimir: "Area do Retangulo:" +  retangulo.CalcularArea()  + ", Cor:" + retangulo.cor
@@ -328,20 +329,31 @@ Considere a fórumla de atualização velocidade:
 ```
 Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo) {
     tempo = 0
-    velocidade = velocidade_inicial 
+    velocidade = velocidade_inicial
+    resultado = (velocidadeInicial + Aceleração)/velocidade
     
     Enquanto ( verdade) { 
         tempo = tempo + 1
-        velocidade = velocidade_inicial + aceleracao * tempo
+        velocidade = velocidadeIinicial + aceleracao * tempo
         
         Se (velocidade > velocidade_maxima) então {
             velocidade = velocidade_maxima}
         
         Se  (velocidade * tempo >= distancia)  então {
-            Retornar tempo }
+            imprimir ("O tempo de Corrida Foi:" + resultado + "seg") } 
             
         Se (tempo >= tempo_maximo) então{
-            Retornar "Tempo limite excedido"}
+            Imprimir: ("Tempo limite excedido")} }}
+
+#Exemplo de Aplicação:
+
+variavel distancia = #escrever distancia em m
+variavel velocidadeInicial = 0
+variavel aceleracao = # escrever a aceleração em m/s^2
+variavel velocidadeMaxima = # escrever a velocidade máxima em m/s
+variavel tempoMaximo = #escrever o tempo máximo em segundos
+
+variavel resultado = simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo)
 
 ```
 
