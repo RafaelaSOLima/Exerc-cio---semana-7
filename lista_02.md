@@ -286,9 +286,6 @@ Função verificarIdadeParaVotar: ()
   Senão: (idade > 18)
     imprimir("Voto Obrigatório")
 
-#Se a idade for menor que 16 
-
-
 ```
 ______
 
