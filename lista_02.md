@@ -326,7 +326,11 @@ ______
 
 Considere a fórumla de atualização velocidade:
 ```
+Classe()
     velocidade = velocidadeInicial + aceleracao*tempo
+
+
+
 ```
 
 ______
